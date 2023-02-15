@@ -1,0 +1,74 @@
+
+/* CSS */
+/* Utilizing 4 different types of selectors */
+
+/* Utilizing element selector here */
+h1 {
+    text-align: center;
+  }
+  
+  /* Utilizing class selector */
+  .about {
+    list-style-type: square;
+  }
+  
+  /* Utilizing id selector */
+  #wrapper {
+    background-color: #f2f2f2; /* Hex color  */
+    width: 80%; /* Width  */
+    margin: 0 auto; /* Margin to center the element horizontally */
+    border: 2px solid #333; /* Border for wrapper */
+  }
+  
+  /* Utilizing pseudoselector */
+  .about li:nth-child(odd) {
+    font-weight: bold; /* Every odd bullet point should be bold */
+  }
+  
+  /* Utilizing universal selector */
+  * {
+    color: #333; /* Hex color for all text */
+  }
+  
+  /* Excluding paragraph element */
+  p {
+    color: inherit; /* color for paragraph element */
+  }
+  
+  /* Adding a background image to the wrapper */
+  #wrapper {
+    background-image: url('https://source.unsplash.com/random/800x400" alt="Header Image');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Applying filters to the header image */
+  header img {
+    filter: grayscale(50%) blur(3px);
+  }
+  
+  /* Making the header image responsive */
+  header img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Setting the width of the wrapper to 80% of the viewport width */
+  #wrapper {
+    width: 80vw;
+  }
+  
+  /* Styling the header */
+  header {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+  }
+  
